@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: hash-micro-test
+        ports:
+            - "8080:80"
+        volumes:
+            - .:/var/www/html
+        env_file:
+            - .env
