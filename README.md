@@ -17,6 +17,8 @@
 
 -   Run `composer install`
 
+-   Run `npm install && npm run build`
+
 -   Run `php artisan key:generate`
 
 -   Run `php artisan migrate`
