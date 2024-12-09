@@ -1,0 +1,27 @@
+Ketentuan Task :
+
+1 Gunakan framework MVC
+2 Buat beberapa Model yang di inherit di beberapa fungsi berbeda
+3 Buatlah sebuah fitur (atau lebih) yang didalamnya minimal mengaplikasikan fungsi-fungsi berikut:
+    a. Nested loop
+    b. Nested if
+    c. Mathematics
+    d. CRUD
+4 Buat suatu fitur untuk pengecekan dua free input dari user, dan system akan menghitung berapa
+persen karakter dari input pertama ada di input kedua dan akan dimunculkan ke user.
+    Contoh:
+        Input 1: ABBCD
+        Input 2: Gallant Duck
+Karena karakter A dan D ada muncul di Gallant Duck, berarti 2 / 5 karakter (ABBCD = 5 karakter) itu
+muncul di input kedua, maka hasil = 40%
+
+Catatan :
+
+1 Sudah diterapkan
+2 Sudah diterpakan melalui model Product dan Category yang memiliki relasi One to Many
+3 Sudah diterapkan melalui fitur Product dan Category
+    a. Nested loop : digunakan untuk menampilkan data product dan category
+    b. Nested if : digunakan untuk menampilkan total value product berdasarkan category
+    c. Mathematics : digunakan untuk menghitung persentase karakter
+    d. CRUD : digunakan untuk menambah, mengubah, dan menghapus data product dan category
+4 Sudah diterapkan melalui fitur Check Percentage. Namun di soal sepertinya ada kesalahan dimana seharusnya karakterk A, B, C muncul di Gallant Duck bukan hanya A dan D. Jadi seharusnya hasilnya adalah 3 / 5 = 60% karena ada 3 karakter yang muncul di input kedua (Gallant Duck).
